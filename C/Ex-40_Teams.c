@@ -1,8 +1,5 @@
 //
 //  Ex-40_Teams.c
-//  Ex 40 Explained on Microsoft Teams
-//  30042023
-//
 //  Created by Sebastian Jusca on 29/03/2023.
 //
 

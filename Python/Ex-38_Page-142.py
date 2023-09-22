@@ -1,8 +1,5 @@
 # 
 # Ex-38_Page-142.py
-# Exercise 38 Page 142
-# 5a3e01659ce06f6bc2c0b043e8da797bbdaa205a
-#
 # Created by Sebastian Jusca on 17/04/2023.
 #
 

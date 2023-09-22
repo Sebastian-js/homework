@@ -1,8 +1,5 @@
 //
 //  Ex-33_Page-142.c
-//  Exercise 33 Page 142
-//  29042023
-//
 //  Created by Sebastian Jusca on 28/03/2023.
 //
 

@@ -1,8 +1,5 @@
 //
 //  Ex-Factorials_Teams.c
-//  Exercise Factorials Explained on Microsoft Teams
-//  03042023
-//
 //  Created by Sebastian Jusca on 30/03/2023.
 //
 

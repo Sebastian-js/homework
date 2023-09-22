@@ -1,8 +1,5 @@
 //
 //  Ex-1_Cycles.c
-//  Exercise 1 about Cycles Explained on Microsoft Teams
-//  f88f98c58ea8ab845ce1c1d53cda8ef278650331
-//
 //  Created by Sebastian Jusca on 23/04/2023.
 //
 

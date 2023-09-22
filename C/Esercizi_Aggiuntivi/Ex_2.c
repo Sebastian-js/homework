@@ -1,7 +1,5 @@
 //
 //  Ex_2.c
-//  Esercizi_Aggiuntivi
-//
 //  Created by Sebastian Jusca on 03/04/2023.
 //
 

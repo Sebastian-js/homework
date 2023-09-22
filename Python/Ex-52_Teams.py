@@ -1,8 +1,5 @@
 # 
 # Ex-52_Teams.py
-# Exercise 52 Explained on Microsoft Teams
-# b3dc9fcebccb1b7981d1f44b31b2fb9d0bc52d2a
-#
 # Created by Sebastian Jusca on 17/04/2023.
 #
 while True:

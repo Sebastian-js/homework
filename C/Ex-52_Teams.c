@@ -1,8 +1,5 @@
 //
 //  Ex-52_Teams.c
-//  Ex 52 Explained on Microsoft Teams
-//  30042023
-//
 //  Created by Sebastian Jusca on 29/03/2023.
 //
 

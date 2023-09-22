@@ -1,3 +1,8 @@
+//
+//  ex-1.c
+//  Created by Sebastian Jusca.
+//
+
 #include <stdio.h>
 
 int main(){

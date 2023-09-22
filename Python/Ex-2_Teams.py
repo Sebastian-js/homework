@@ -1,8 +1,5 @@
 # 
 # Ex-2_Teams.py
-# Exercise 2 Explained on Microsoft Teams
-# 89391d847b262a7e47aa3d15a65e32a77220c955
-#
 # Created by Sebastian Jusca on 17/04/2023.
 #
 

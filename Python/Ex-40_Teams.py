@@ -1,8 +1,5 @@
 # 
 # Ex-40_Teams.py
-# Exercise 40 Explained on Microsoft Teams
-# ee7db0cdef63bd05010246e47b90db4e504fdf54
-#
 # Created by Sebastian Jusca on 17/04/2023.
 #
 

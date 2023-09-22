@@ -1,8 +1,5 @@
 //
 //  Ex-Functions.c
-//  Exercise Functions Explained on Microsoft Teams
-//  d8f773e6b7e1525ee93c84a9637cb7b7115c22ef
-//
 //  Created by Sebastian Jusca on 23/05/2023.
 //
 

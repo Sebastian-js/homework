@@ -1,8 +1,5 @@
 # 
 # Ex-4_Teams.py
-# Exercise 4 Explained on Microsoft Teams
-# 092deffd61e53b1424279e9c11a564539ed4918b
-#
 # Created by Sebastian Jusca on 17/04/2023.
 #
 
