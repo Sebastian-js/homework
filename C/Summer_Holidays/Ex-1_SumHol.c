@@ -1,8 +1,5 @@
 //
 //  Ex-1_HolSumm.c
-//  Exercise 1 of 9 Explained on Microsoft Teams Summer School Holidays
-//  a89c23a49f7412991fb7c0423558a937263d43b5
-//
 //  Created by Sebastian Jusca on 21/06/2023.
 //
 
