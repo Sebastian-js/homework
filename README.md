@@ -1,3 +1,3 @@
 # homework
 
-repository containing school ET homework
+repository containing school IT homework
