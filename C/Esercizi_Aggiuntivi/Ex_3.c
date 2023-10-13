@@ -6,7 +6,6 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
-#include <stdlib.h>
 
 void wordFormat(char* word){
 	int j, i;
