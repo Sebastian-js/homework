@@ -1,3 +1,8 @@
+//
+//  Ex2_Arrays.c
+//  Created by Sebastian Jusca on 13/10/2023.
+//
+
 #include "stdio.h"
 #include <stdbool.h>
 
