@@ -19,7 +19,6 @@ int main(){
   printf("numeri letti:");
   for(int i=0; i<n; i++){
     printf(" %d", vett[i]);
-    int a;
   }
   printf("\nmax = indice %d, valore %d\n", i_max, max);
   printf("min = indice %d, valore %d\n", i_min, min);
