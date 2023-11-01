@@ -4,6 +4,7 @@
 int main(){
   int n, temp;
   bool palyndrome=true;
+  printf("Enter size of array: ");
   scanf("%d",&n);
   int vett[n];
   

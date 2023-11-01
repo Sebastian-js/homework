@@ -2,6 +2,7 @@
 
 int main(){
   int n, temp1, temp2;
+  printf("Enter size of array: ");
   scanf("%d",&n);
   int vett[n];
   
