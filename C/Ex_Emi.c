@@ -5,7 +5,11 @@ int potenza(int n){
 }
 
 int radice_quadrata(int n){
-    
+	int ris;
+	for(int i = 1; i * i <= n; i++){
+        ris = i;
+	}
+	return ris;
 }
 
 int sommatoria(int vett[], int n){
@@ -14,6 +18,6 @@ int sommatoria(int vett[], int n){
         somma = somma + potenza(vett[i]-4);
     }
     somma = somma / n;
-    // qua devi fare la radice quadrata di somma
+    somma = radice_quadrata(somma);
     return somma;    
 }
