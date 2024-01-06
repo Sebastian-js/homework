@@ -1,16 +1,10 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-bool binary_search(int* vett, int n, int target){
-	 int start=0, end=n-1;
-	 while(start <= end){
-	 	int mid = start + (end-start)/2;
-	 	if(vett[mid]==target)
-	 		return true;
-	 	if(vett[mid]<target)
-	 		start = mid + 1;
-	 	else
-	 		end = mid -1;
+bool search(int* vett, int n, int target){
+	 for(int i=0; i<n; i++){
+		 if(vett[i]==target)
+			 return true;
 	 }
 	 return false;
 }
@@ -25,7 +19,7 @@ int main(){
 	}
 
 	for(i=0; i<n; i++){
-		if(!binary_search(vett2, j, vett1[i])){
+		if(!search(vett2, j, vett1[i])){
 			vett2[j]=vett1[i];
 			j++;
 		}
