@@ -19,7 +19,7 @@ void del_spaces(char* str, int n, int pos){
 
 int main(){
 	int n=50;
-	char str[] = "                      somethingsomething";
+	char str[] = "                      something something";
 
 	//scanf("%s", str);
 
