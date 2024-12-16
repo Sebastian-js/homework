@@ -17,7 +17,7 @@ public class TipoCapoAbbigliamento {
         this.prezzo = prezzo;
     }
 
-    float applicaSconto(float percentuale) throws Exception {
+    float applicaSconto(int percentuale) throws Exception {
         if(percentuale<0||percentuale>100){
             throw new Exception("Sconto invalido");
         }
