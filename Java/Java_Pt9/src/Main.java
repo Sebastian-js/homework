@@ -7,12 +7,13 @@ public class Main {
         int choice = 1;
         CapoAbbigliamento c;
         while (choice != 0) {
-            System.out.println("1 - Aggiungi capo \n2 - Modifica prezzo di un modello \n3 - Applica sconto a un modello \n4 - Segna la vendita di un capo \n5 - Modifica quantità disponibile di un capo \n6 - Cerca un capo \n0 - Esci");
+            System.out.println("1 - Aggiungi capo \n2 - Modifica prezzo di un modello \n3 - Applica sconto a un modello \n4 - Segna la vendita di un capo \n5 - Modifica quantità disponibile di un capo \n6 - Cerca un capo \n7 - Vedi capi disponibili \n0 - Esci");
             choice = sc.nextInt();
             switch (choice) {
                 case 1:
                     System.out.println("Inserisci marca(String), modello(String), prezzo(float), taglia(char) e quantità disponibile(int)");
-                    c = new CapoAbbigliamento(sc.next(), sc.next(), sc.nextFloat(), sc.next().charAt(0), sc.next().charAt(0));
+                    c = new CapoAbbigliamento(sc.next(), sc.next(), sc.nextFloat(), sc.next(), sc.nextInt());
+                    negozio.addCapo(c);
                     break;
                 case 2:
                     System.out.println("Inserisci modello(String) e nuovo prezzo(float)");
@@ -32,7 +33,18 @@ public class Main {
                 case 5:
                     System.out.println("Inserisci modello(String) e quantità disponibile(int)");
                     c = negozio.getCapo(sc.next());
+                    System.out.println(c.quantitaDisponibile + "disponibile");
                     negozio.setQuantitaDisponibile(c, sc.nextInt());
+                    break;
+                case 6:
+                    System.out.println("Inserisci modello(String)");
+                    c = negozio.getCapo(sc.next());
+                    System.out.println(c);
+                    break;
+                case 7:
+                    System.out.println(negozio);
+                default:
+                    System.out.println("Inserisci un numero valido");
                     break;
             }
         }

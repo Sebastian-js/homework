@@ -3,9 +3,9 @@ public class CapoAbbigliamento extends TipoCapoAbbigliamento{
     int quantitaAcquistata = 0;
     int quantitaDisponibile;
 
-    public CapoAbbigliamento(String marca, String modello, float prezzo, char taglia, int quantitaDisponibile) {
+    public CapoAbbigliamento(String marca, String modello, float prezzo, String taglia, int quantitaDisponibile) {
         super(marca, modello, prezzo);
-        this.taglia = taglia;
+        this.taglia = taglia.charAt(0);
         this.quantitaDisponibile = quantitaDisponibile;
     }
 
@@ -18,7 +18,7 @@ public class CapoAbbigliamento extends TipoCapoAbbigliamento{
             throw new OutOfStockException();
         }
         this.quantitaAcquistata = quantitaAcquistata;
-        setQuantitaDisponibile(quantitaAcquistata-quantitaAcquistata);
+        setQuantitaDisponibile(quantitaDisponibile-quantitaAcquistata);
         return quantitaDisponibile;
     }
 
